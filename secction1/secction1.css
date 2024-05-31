@@ -1,0 +1,30 @@
+.tablegl {
+    width:42.9rem;
+    display: grid;
+    grid-template-columns: 25% 1fr;
+    padding: 1rem;
+    gap: 0.5rem;
+}
+.gldescrpt {
+    padding: 0.2rem;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gletiq {
+    padding: 0.2rem;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tablegl div:hover {
+    transition: 1s;
+    background-color: mediumaquamarine;
+}
